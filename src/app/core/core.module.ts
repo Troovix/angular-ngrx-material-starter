@@ -38,7 +38,7 @@ import { GoogleAnalyticsEffects } from './google-analytics/google-analytics.effe
     environment.production
       ? []
       : StoreDevtoolsModule.instrument({
-          name: 'Angular NgRx Material Starter'
+          name: 'Troovix'
         }),
 
     // 3rd party
