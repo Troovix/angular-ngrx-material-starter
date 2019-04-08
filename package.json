@@ -1,6 +1,6 @@
 {
-  "name": "angular-ngrx-material-starter",
-  "version": "7.3.0",
+  "name": "troovix-landpage",
+  "version": "7.4.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

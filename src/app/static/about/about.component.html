@@ -15,18 +15,13 @@
         </a>
         <br>
         -->
-        <span [ngClass]="routeAnimationsElements">{{ 'anms.about.check-blogs' | translate }}</span>
+        <span [ngStyle]="{'font-size': '30px'}" [ngClass]="routeAnimationsElements">{{ 'anms.about.check-blogs' | translate }}</span>
         <br>
         <iframe src="https://player.vimeo.com/video/303686233" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div class="get-started" [ngClass]="routeAnimationsElements">
-        <h2 data-testid='get-started'>{{ 'anms.about.get-started' | translate }}</h2>
-        <code>git clone
-          https://github.com/tomastrajan/angular-ngrx-material-starter.git
-          new-project</code><br>
-        <code>cd new-project</code><br>
-        <code>npm install</code><br>
-        <code>npm start</code>
+        <h1 data-testid='get-started'>{{ 'anms.about.get-started' | translate }}</h1>
+        
       </div>
     </div>
   </div>
